@@ -618,3 +618,51 @@ section {
         padding-left: 4rem !important;
     }
 }
+
+.fusion-flex-container .fusion-row .fusion-flex-column .fusion-column-wrapper:not(.fusion-flex-column-wrapper-legacy).fusion-content-layout-column {
+    flex-direction: column;
+}
+
+.enumeration-categories li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 4px 19px;
+    color: #ffffff !important;
+    text-transform: uppercase !important;
+    margin: 5px;
+}
+
+.competition-title,
+.enumeration-categories li {
+    font-family: "Gibson Bold";
+}
+
+#competition-boxes_robo-mission::after,
+.enumeration-categories li#enum_robo-mission,
+.btn_category-robo-mission {
+    background: linear-gradient(to left, #ff9933, #ffff00);
+}
+
+#competition-boxes_robo-sports::after,
+.enumeration-categories li#enum_robo-sports,
+.btn_category-robo-sports {
+    background: linear-gradient(to right, #95c11f, #008d36);
+}
+
+#competition-boxes_future-innovators::after,
+.enumeration-categories li#enum_future-innovators,
+.btn_category-future-innovators {
+    background: linear-gradient(to right, #ff3333, #ff0099);
+}
+
+#competition-boxes_future-innovators::after,
+.enumeration-categories li#enum_future-innovators,
+.btn_category-future-innovators {
+    background: linear-gradient(to right, #ff3333, #ff0099);
+}
+
+#competition-boxes_future-engineers::after,
+.enumeration-categories li#enum_future-engineers,
+.btn_category-future-engineers {
+    background: linear-gradient(to right, #009fe3, #005a91);
+}
