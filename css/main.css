@@ -619,50 +619,48 @@ section {
     }
 }
 
-.fusion-flex-container .fusion-row .fusion-flex-column .fusion-column-wrapper:not(.fusion-flex-column-wrapper-legacy).fusion-content-layout-column {
-    flex-direction: column;
-}
-
-.enumeration-categories li {
+.button {
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
     display: inline-block;
-    list-style-type: none;
-    padding: 4px 19px;
-    color: #ffffff !important;
-    text-transform: uppercase !important;
-    margin: 5px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #95c11f, #008d36);
+
 }
 
-.competition-title,
-.enumeration-categories li {
-    font-family: "Gibson Bold";
+/* .button .btn-robomission {
+    background-image: linear-gradient(to right, #95c11f, #008d36);
+
+
+} */
+
+.btn-robomission:hover {
+
+    background-image: linear-gradient(to right, #008d36, #95c11f);
 }
 
-#competition-boxes_robo-mission::after,
-.enumeration-categories li#enum_robo-mission,
-.btn_category-robo-mission {
-    background: linear-gradient(to left, #ff9933, #ffff00);
+.btn-futureinnovator {
+    background-image: linear-gradient(to right, #ff3333, #ff0099);
 }
 
-#competition-boxes_robo-sports::after,
-.enumeration-categories li#enum_robo-sports,
-.btn_category-robo-sports {
-    background: linear-gradient(to right, #95c11f, #008d36);
+.btn-futureinnovator:hover {
+    background-image: linear-gradient(to right, #ff0099,
+            #ff3333);
 }
 
-#competition-boxes_future-innovators::after,
-.enumeration-categories li#enum_future-innovators,
-.btn_category-future-innovators {
-    background: linear-gradient(to right, #ff3333, #ff0099);
+.btn-futureengineer {
+    background-image: linear-gradient(to right, #009fe3, #005a91);
 }
 
-#competition-boxes_future-innovators::after,
-.enumeration-categories li#enum_future-innovators,
-.btn_category-future-innovators {
-    background: linear-gradient(to right, #ff3333, #ff0099);
+.btn-futureengineer:hover {
+    background-image: linear-gradient(to right, #005a91, #009fe3);
 }
 
-#competition-boxes_future-engineers::after,
-.enumeration-categories li#enum_future-engineers,
-.btn_category-future-engineers {
-    background: linear-gradient(to right, #009fe3, #005a91);
+.btn-entrylevelrobomission {
+    background-image: linear-gradient(to right, #009fe3, #005a91);
 }
