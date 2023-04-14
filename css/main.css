@@ -664,3 +664,7 @@ section {
 .btn-entrylevelrobomission {
     background-image: linear-gradient(to right, #009fe3, #005a91);
 }
+
+.btn-entrylevelrobomission:hover {
+    background-image: linear-gradient(to right, #005a91, #009fe3);
+}
