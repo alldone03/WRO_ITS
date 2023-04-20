@@ -195,7 +195,7 @@ section {
 .btn-trans {
     color: #fff;
     transition: var(--transition);
-    display: none;
+    display: inline-block;
 }
 
 .btn-trans:hover {
@@ -483,6 +483,22 @@ section {
 
 /* #### Media Queries #### */
 
+@media (min-width: 320px) and (max-width: 768px){
+    .titlelogo{
+        min-width: 150% !important;
+    }
+    .btn-trans{
+        margin-bottom: 0.8rem;
+    }
+    .btn-trans,
+    .btn-robomission,
+    .btn-futureinnovator,
+    .btn-futureengineer,
+    .btn-entrylevelrobomission{
+        margin-top: 0.3rem;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .partner-item {
         margin: 0;
@@ -554,7 +570,6 @@ section {
     }
 
     .btn-trans {
-        display: inline-block;
         margin-right: 0.8rem;
     }
 
