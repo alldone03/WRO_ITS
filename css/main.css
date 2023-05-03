@@ -639,7 +639,7 @@ section {
 .button {
     cursor: pointer;
     border: none;
-    border-radius: 12px;
+    border-radius: 3xpx;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -669,6 +669,8 @@ section {
     margin: 2%;
     border-radius: 2px;
 }
+
+
 
 .btn-robomission:hover {
 
