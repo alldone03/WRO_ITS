@@ -639,9 +639,9 @@ section {
 .button {
     cursor: pointer;
     border: none;
-    border-radius: 3xpx;
+    border-radius: 3px;
     color: white;
-    padding: 15px 32px;
+    padding: 7px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -658,18 +658,6 @@ section {
     color: #ffffff;
     border-radius: 2px;
 }
-
-.btn-collumn {
-    text-decoration: none;
-    border: none;
-    padding: 7px 15px;
-    font-size: 14px;
-    font-weight: 600;
-    color: #ffffff;
-    margin: 2%;
-    border-radius: 2px;
-}
-
 
 
 .btn-robomission:hover {
