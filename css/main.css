@@ -192,6 +192,7 @@ section {
     text-transform: uppercase;
 }
 
+
 .btn-trans {
     color: #fff;
     transition: var(--transition);
@@ -484,10 +485,9 @@ section {
 /* #### Media Queries #### */
 
 @media (min-width: 320px) and (max-width: 768px) {
-    .titlelogo {
-        min-width: 150% !important;
+    .titlelogo{
+        max-width: none;
     }
-
     .btn-trans {
         margin-bottom: 0.8rem;
     }
@@ -647,14 +647,28 @@ section {
     display: inline-block;
     font-size: 16px;
     background-image: linear-gradient(to right, #ffd703, #f0a41e);
-
 }
 
-/* .button .btn-robomission {
-    background-image: linear-gradient(to right, #95c11f, #008d36);
+.btn {
+    text-decoration: none;
+    border: none;
+    padding: 7px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 2px;
+}
 
-
-} */
+.btn-collumn {
+    text-decoration: none;
+    border: none;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 2%;
+    border-radius: 2px;
+}
 
 .btn-robomission:hover {
 
@@ -666,8 +680,7 @@ section {
 }
 
 .btn-futureinnovator:hover {
-    background-image: linear-gradient(to right, #d61437,
-            #d61437);
+    background-image: linear-gradient(to right, #d61437,#d61437);
 }
 
 .btn-futureengineer {
@@ -685,4 +698,8 @@ section {
 
 .btn-entrylevelrobomission:hover {
     background-image: linear-gradient(to right, #a4a4a5, #a4a4a5);
+}
+
+.robomission-btn{
+    background: linear-gradient(to left, #ff9933, #ffff00);
 }
