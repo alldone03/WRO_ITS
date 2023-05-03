@@ -483,18 +483,20 @@ section {
 
 /* #### Media Queries #### */
 
-@media (min-width: 320px) and (max-width: 768px){
-    .titlelogo{
+@media (min-width: 320px) and (max-width: 768px) {
+    .titlelogo {
         min-width: 150% !important;
     }
-    .btn-trans{
+
+    .btn-trans {
         margin-bottom: 0.8rem;
     }
+
     .btn-trans,
     .btn-robomission,
     .btn-futureinnovator,
     .btn-futureengineer,
-    .btn-entrylevelrobomission{
+    .btn-entrylevelrobomission {
         margin-top: 0.3rem;
     }
 }
@@ -656,7 +658,7 @@ section {
 
 .btn-robomission:hover {
 
-    background-image: linear-gradient(to right, #008d36, #95c11f);
+    background-image: linear-gradient(to right, #95c11f, #95c11f);
 }
 
 .btn-futureinnovator {
@@ -664,7 +666,7 @@ section {
 }
 
 .btn-futureinnovator:hover {
-    background-image: linear-gradient(to right, #ff0099,
+    background-image: linear-gradient(to right, #ff3333,
             #ff3333);
 }
 
@@ -673,7 +675,7 @@ section {
 }
 
 .btn-futureengineer:hover {
-    background-image: linear-gradient(to right, #005a91, #009fe3);
+    background-image: linear-gradient(to right, #009fe3, #009fe3);
 }
 
 .btn-entrylevelrobomission {
@@ -681,5 +683,5 @@ section {
 }
 
 .btn-entrylevelrobomission:hover {
-    background-image: linear-gradient(to right, #005a91, #009fe3);
+    background-image: linear-gradient(to right, #009fe3, #009fe3);
 }
