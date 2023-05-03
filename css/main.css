@@ -646,7 +646,7 @@ section {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    background-image: linear-gradient(to right, #95c11f, #008d36);
+    background-image: linear-gradient(to right, #ffd703, #f0a41e);
 
 }
 
@@ -658,30 +658,31 @@ section {
 
 .btn-robomission:hover {
 
-    background-image: linear-gradient(to right, #95c11f, #95c11f);
+    background-image: linear-gradient(to right, #f0a41e, #f0a41e);
 }
 
 .btn-futureinnovator {
-    background-image: linear-gradient(to right, #ff3333, #ff0099);
+    background-image: linear-gradient(to right, #e4078d, #d61437);
 }
 
 .btn-futureinnovator:hover {
-    background-image: linear-gradient(to right, #ff3333,
-            #ff3333);
+    background-image: linear-gradient(to right, #d61437,
+            #d61437);
 }
 
 .btn-futureengineer {
-    background-image: linear-gradient(to right, #009fe3, #005a91);
+    background-image: linear-gradient(to right, #03aae9, #026396);
 }
 
 .btn-futureengineer:hover {
-    background-image: linear-gradient(to right, #009fe3, #009fe3);
+    background-image: linear-gradient(to right, #026396, #026396);
 }
 
 .btn-entrylevelrobomission {
-    background-image: linear-gradient(to right, #009fe3, #005a91);
+    color: black;
+    background-image: linear-gradient(to right, #fdfdff, #a4a4a5);
 }
 
 .btn-entrylevelrobomission:hover {
-    background-image: linear-gradient(to right, #009fe3, #009fe3);
+    background-image: linear-gradient(to right, #a4a4a5, #a4a4a5);
 }
