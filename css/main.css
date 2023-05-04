@@ -349,7 +349,7 @@ section {
 }
 
 .show-timeline-content {
-    height: 50px;
+    height: 80px;
     padding: 0.6rem 1.8rem;
 }
 
@@ -485,9 +485,10 @@ section {
 /* #### Media Queries #### */
 
 @media (min-width: 320px) and (max-width: 768px) {
-    .titlelogo{
+    .titlelogo {
         max-width: none;
     }
+
     .btn-trans {
         margin-bottom: 0.8rem;
     }
@@ -670,7 +671,7 @@ section {
 }
 
 .btn-futureinnovator:hover {
-    background-image: linear-gradient(to right, #d61437,#d61437);
+    background-image: linear-gradient(to right, #d61437, #d61437);
 }
 
 .btn-futureengineer {
@@ -690,6 +691,6 @@ section {
     background-image: linear-gradient(to right, #a4a4a5, #a4a4a5);
 }
 
-.robomission-btn{
+.robomission-btn {
     background: linear-gradient(to left, #ff9933, #ffff00);
 }
