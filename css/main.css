@@ -96,7 +96,7 @@ section {
 
 /* header */
 .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/header-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/header-bg.webp);
     min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -349,7 +349,7 @@ section {
 }
 
 .show-timeline-content {
-    height: 80px;
+    height: 90px;
     padding: 0.6rem 1.8rem;
 }
 
@@ -365,7 +365,7 @@ section {
 
 /* informasi */
 .informasi {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/informasi-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/informasi-bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
