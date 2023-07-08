@@ -42,8 +42,8 @@
         <div class="brand-and-toggler">
           <a href="index.html" class="navbar-brand">
             <!-- WRO Indonesia <span>2023</span> -->
-            <img class="logowroindonesia" style="width: 100%; height: 250px;clip-path: inset(0 0 0 0);" src="assets/logo-wro-id-23-putih.webp"
-              alt="" srcset="">
+            <img class="logowroindonesia" style="width: 100%; height: 85px;clip-path: inset(0 0 0 0);"
+              src="assets/logo-wro-id-23-putih.webp" alt="" srcset="">
           </a>
           <button type="button" class="navbar-toggler" id="navbar-toggler">
             <i class="fas fa-bars"></i>
@@ -77,19 +77,15 @@
 
     <div class="hero-div center container">
 
-            
-            <div  style="display: flex; backgroud-color:blue;">
-                
-                
-      <div class="titlelogo">
-        <img style=" height: 100%; width:28vh; object-fit:contain; " src="assets/logo.png" alt="" srcset="">
-        
+      <div class="logo-welcome" style="display: flex; ">
+
+        <img class="welcome-itslogo" src="assets/itslogowhite.webp" alt="" srcset="">
+
+        <img class="welcome-dieslogo" src="assets/logodies.webp" alt="" srcset="">
+        <img class="welcome-dteologo" src="assets/dteologowhite.webp" alt="" srcset="">
       </div>
-      <div style="width:3vw"></div>
-      
-      <img style=" height: 100%; width:25vh " src="assets/logodies.png" alt="" srcset="">
-      </div>
-      
+
+
       <h1>Selamat Datang di Website Resmi WRO Indonesia 2023</h1>
       <div class="hero-btns animate__animated animate__fadeInUp animate__slow">
         <a href="#about"><button type="button" class="btn-trans">Pelajari Lebih Lanjut</button></a>
@@ -517,15 +513,15 @@
             dijalankan.</p>
           <div style="margin-top: 30px; display: flex; justify-content: center; color: white; padding-top: 10pt;">
             <!-- <div style="margin-bottom: 20px;"> -->
-            <a href="https://wroindonesia.org/files/General%20Rules_Entry%20Level.pdf"
-              target="_blank"><button class="button btn-entrylevelrobomission">General Rules Entry 
+            <a href="https://wroindonesia.org/files/General%20Rules_Entry%20Level.pdf" target="_blank"><button
+                class="button btn-entrylevelrobomission">General Rules Entry
                 Level</button></a>
             <!-- </div> -->
           </div>
           <div style="margin-top: 5px; display: flex; justify-content: center; color: white; padding-top: 10pt;">
             <!-- <div style="margin-bottom: 20px;"> -->
-            <a href="https://wroindonesia.org/files/Building%20Robot_Entry%20Level.pdf"
-              target="_blank"><button class="button btn-entrylevelrobomission">Building Inst. Entry
+            <a href="https://wroindonesia.org/files/Building%20Robot_Entry%20Level.pdf" target="_blank"><button
+                class="button btn-entrylevelrobomission">Building Inst. Entry
                 Level</button></a>
             <!-- </div> -->
           </div>
@@ -651,8 +647,8 @@
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15830.73152505421!2d112.8061882!3d-7.2768784!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa09223e74e3%3A0x8ed839093684b2ab!2sPakuwon%20City%20Mall!5e0!3m2!1sid!2sid!4v1688514546631!5m2!1sid!2sid"
                 frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
                 href="https://2yu.co"></a><br>
-                
-                <!--<iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+
+              <!--<iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
               <style>
                 .mapouter {
                   position: relative;
@@ -734,59 +730,17 @@
   <script src="js/script.js"></script>
 
   <script>
-  $(document).ready(function(){
-      
-  
-    var initialSrc = "assets/logo-wro-id-23-putih.webp";
-    var scrollSrc = "assets/logowrotekshitam.webp";
-    
-    
-    
-    
-    var value = $(this).scrollTop();
-    //   console.log(value);
-      if (value > 100) {
-        $(".logowroindonesia").attr("src", scrollSrc);
-        $(".logowroindonesia").css("width", '100%');
-        $(".logowroindonesia").css('height', '80px');
-      }
-      else {
-        $(".logowroindonesia").attr("src", initialSrc);
-        $(".logowroindonesia").css("width", '100%');
-        $(".logowroindonesia").css('height', '250px');
-        if(document.body.clientWidth < 991){
-            initialSrc = "assets/logowrotekshitam.webp";
-            $(".logowroindonesia").css("width", '100%');
-            $(".logowroindonesia").css('height', '80px');
-        }
-      }
-      if(document.body.clientWidth < 991){
-            initialSrc = "assets/logowrotekshitam.webp";
-            $(".logowroindonesia").css("width", '100%');
-            $(".logowroindonesia").css('height', '80px');
-        }else{
-            initialSrc = "assets/logo-wro-id-23-putih.webp";
-            $(".logowroindonesia").css("width", '100%');
-            $(".logowroindonesia").css('height', '250px');
-        }
-        $(".logowroindonesia").attr("src", initialSrc);
-    $(window).resize(function() {
-        // console.log(document.body.clientWidth);
-        if(document.body.clientWidth < 991){
-            initialSrc = "assets/logowrotekshitam.webp";
-            $(".logowroindonesia").css("width", '100%');
-            $(".logowroindonesia").css('height', '80px');
-        }else{
-            initialSrc = "assets/logo-wro-id-23-putih.webp";
-            $(".logowroindonesia").css("width", '100%');
-            $(".logowroindonesia").css('height', '250px');
-        }
-        $(".logowroindonesia").attr("src", initialSrc);
-    });
+    $(document).ready(function () {
 
-    $(window).scroll(function () {
+
+      var initialSrc = "assets/logo-wro-id-23-putih.webp";
+      var scrollSrc = "assets/logowrotekshitam.webp";
+
+
+
+
       var value = $(this).scrollTop();
-    //   console.log(value);
+      //   console.log(value);
       if (value > 100) {
         $(".logowroindonesia").attr("src", scrollSrc);
         $(".logowroindonesia").css("width", '100%');
@@ -795,15 +749,57 @@
       else {
         $(".logowroindonesia").attr("src", initialSrc);
         $(".logowroindonesia").css("width", '100%');
-        $(".logowroindonesia").css('height', '250px');
-        if(document.body.clientWidth < 991){
+        $(".logowroindonesia").css('height', '80px');
+        if (document.body.clientWidth < 991) {
+          initialSrc = "assets/logowrotekshitam.webp";
+          $(".logowroindonesia").css("width", '100%');
+          $(".logowroindonesia").css('height', '80px');
+        }
+      }
+      if (document.body.clientWidth < 991) {
+        initialSrc = "assets/logowrotekshitam.webp";
+        $(".logowroindonesia").css("width", '100%');
+        $(".logowroindonesia").css('height', '80px');
+      } else {
+        initialSrc = "assets/logo-wro-id-23-putih.webp";
+        $(".logowroindonesia").css("width", '100%');
+        $(".logowroindonesia").css('height', '80px');
+      }
+      $(".logowroindonesia").attr("src", initialSrc);
+      $(window).resize(function () {
+        // console.log(document.body.clientWidth);
+        if (document.body.clientWidth < 991) {
+          initialSrc = "assets/logowrotekshitam.webp";
+          $(".logowroindonesia").css("width", '100%');
+          $(".logowroindonesia").css('height', '80px');
+        } else {
+          initialSrc = "assets/logo-wro-id-23-putih.webp";
+          $(".logowroindonesia").css("width", '100%');
+          $(".logowroindonesia").css('height', '80px');
+        }
+        $(".logowroindonesia").attr("src", initialSrc);
+      });
+
+      $(window).scroll(function () {
+        var value = $(this).scrollTop();
+        //   console.log(value);
+        if (value > 100) {
+          $(".logowroindonesia").attr("src", scrollSrc);
+          $(".logowroindonesia").css("width", '100%');
+          $(".logowroindonesia").css('height', '80px');
+        }
+        else {
+          $(".logowroindonesia").attr("src", initialSrc);
+          $(".logowroindonesia").css("width", '100%');
+          $(".logowroindonesia").css('height', '80px');
+          if (document.body.clientWidth < 991) {
             initialSrc = "assets/logowrotekshitam.webp";
             $(".logowroindonesia").css("width", '100%');
             $(".logowroindonesia").css('height', '80px');
+          }
         }
-      }
+      });
     });
-  });
   </script>
 
 </body>

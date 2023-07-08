@@ -698,3 +698,52 @@ section {
 .robomission-btn {
     background: linear-gradient(to left, #ff9933, #ffff00);
 }
+
+.welcome-itslogo {
+    height: 100%;
+    width: 169px;
+}
+
+.welcome-dieslogo {
+    height: 100%;
+    width: 227px
+}
+
+.welcome-dteologo {
+    height: 100%;
+    width: 109px
+}
+.logo-welcome {
+    gap: 63px;
+}
+@media screen and (max-width: 768px) {
+.welcome-itslogo{
+    height: 100%;
+        width: 110px;
+}
+.welcome-dieslogo {
+    height: 100%;
+        width: 159px
+}
+.welcome-dteologo{
+height: 100%;
+    width: 79px
+}
+html{
+    margin-right: -130px;
+}
+.logo-welcome {
+    gap: 36px;
+}
+}
+@media screen and (max-width: 375px) {
+    html {
+            margin-right: -146px;
+        }
+        .logo-welcome{
+            gap: 16px;
+        }
+}
+
+
+    
