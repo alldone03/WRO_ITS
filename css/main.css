@@ -500,6 +500,10 @@ section {
     .btn-entrylevelrobomission {
         margin-top: 0.3rem;
     }
+
+    .show-timeline-content {
+        height: 185px;
+    }
 }
 
 @media screen and (min-width: 768px) {
